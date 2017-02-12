@@ -20,6 +20,7 @@ Website Colours: List colour hex codes here for reference
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*border: 1px solid rgb(245,245,245);*/
 }
 
 img {
@@ -118,8 +119,9 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-top: 1.5rem;
 }
 
 p {
@@ -508,4 +510,32 @@ form[class*=col-] {
 
 hr {
   border-top: 1px solid violet;
+}
+
+/*Membership counter*/
+.counter-container {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.counter-container .fa {
+  font-size: 3em;
+}
+
+.counter-center {
+  margin: 2% auto;
+  display: table;;
+
+}
+
+.counter {
+  display: table-cell;
+  margin:1.5%;
+  font-size:50px;
+  color: white;
+  background-color: violet;
+  width:200px;
+  border-radius: 50%;
+  height:200px;
+  vertical-align: middle;
 }

@@ -4,66 +4,62 @@ title: IOC Starter Theme
 meta-description: This is a starter blog + ecommerce template to fastrack your projects.
 featured-image_path: /uploads/pr-photos-6472.jpg
 ---
-<section>
-<h1>Membership</h1>
+<section class="grid">
 
-<h2>As an MMSS member, you receive exclusive access to:
-</h2>
+  <section class="col-8_sm-12">
 
-<p>
-    MMSS Club Medallion Your MMSS engraved club medallion with unique membership number provides you with exclusive access to sponsor and partner offers and ongoing membership advantages
-</p>
-<p>
-  Year-round exclusive access to corporate partner products, merchandise and sponsorship offerings
-</p>
+      <h1>Membership</h1>
 
-<p>The MMSS Social Calendar
-<li>VIP pre-sale tickets to premier social events and MMSS marquee event ‘The MMSS Ball’</li>
-<li>Members-only discount prices on tickets to premier social events</li>
-<li>Exclusive members-only drink specials and access to member-only areas</li>
-</p>
+      <h4>Members price: $10</h4>
 
-<p>
+      <h3>As an MMSS member, you receive exclusive access to:</h3>
 
-<li>Corporate and professional development and networking events</li>
-<li>VIP pre-sale tickets to premier professional development and networking events</li>
-<li>Discounted member prices on tickets to premier professional development and networking events</li>
-</p>
+      <ul>
+        <li>MMSS Club Medallion Your MMSS engraved club medallion with unique membership number provides you with exclusive access to sponsor and partner offers and ongoing membership advantages</li>
+        <li>Year-round exclusive access to corporate partner products, merchandise and sponsorship offerings</li>
+      </ul>
 
-<p>
-Complimentary 'Marketing Masterclass' & workshop events
-<li>Exclusive networking opportunities with keynote speakers, industry professionals & access to MMSS’ vast network & alumni database</li>
-<li>Exclusive internship and graduate opportunities as offered by our extensive industry and alumni network</li>
-</p>
-<p>
-Weekly Newsletter
-The MMSS EDM is a members-only, fortnightly digital newsletter delivered straight to your inbox. Featuring:
-<li>Relevant and exciting industry and on-campus opportunities for students</li>
-<li>Insights and updates relating to key industry events</li>
-<li>Marketing industry trending spotlight</li>
-<li>Access to pre-sale tickets and event details</li>
-<li>Exclusive access to competitions and member only content</li>
-<li>Exclusive offers from our range of sponsors and partners</li>
-​</p>
+      <h6>The MMSS Social Calendar</h6>
+      <ul>
+          <li>VIP pre-sale tickets to premier social events and MMSS marquee event ‘The MMSS Ball’</li>
+          <li>Members-only discount prices on tickets to premier social events</li>
+          <li>Exclusive members-only drink specials and access to member-only areas</li>
+      </ul>
 
-<div class="grid">
-<form class="grid-center col" action="https://formspree.io/tina@instituteofcode.com"
-      method="POST">
-      <div class="col-4_sm-12">
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="_replyto" placeholder="Email">
-        <input type="text" name="name" placeholder="Student ID">
+      <ul>
+          <li>Corporate and professional development and networking events</li>
+          <li>VIP pre-sale tickets to premier professional development and networking events</li>
+          <li>Discounted member prices on tickets to premier professional development and networking events</li>
+      </ul>
 
-    </div>
-    <div class="col-12">
-      <input type="submit" value="Join Now" class="button">
-    </div>
-  </form>
-  <div class="col">
-    <p class="counter">
-      0
-    </p>
-  </div>
-</div>
+      <h6>Complimentary 'Marketing Masterclass' & workshop events </h6>
 
+      <ul>
+        <li>Exclusive networking opportunities with keynote speakers, industry professionals & access to MMSS’ vast network & alumni database</li>
+        <li>Exclusive internship and graduate opportunities as offered by our extensive industry and alumni network</li>
+      </ul>
+
+      <h6>Weekly Newsletter The MMSS EDM is a members-only, fortnightly digital newsletter delivered straight to your inbox. Featuring:</h6>
+
+      <ul>
+        <li>Relevant and exciting industry and on-campus opportunities for students</li>
+        <li>Insights and updates relating to key industry events</li>
+        <li>Marketing industry trending spotlight</li>
+        <li>Access to pre-sale tickets and event details</li>
+        <li>Exclusive access to competitions and member only content</li>
+        <li>Exclusive offers from our range of sponsors and partners</li>
+      </ul>
   </section>
+
+  <section class="col-4_sm-12">
+      <div class="counter-container">
+        <h3>Membership Count</h3>
+          <i class="fa fa-users" aria-hidden="true"></i>
+          <div class="counter-center">
+            <div class="counter" data-count="1234">0</div>
+          </div>
+      </div>
+
+      {% include contact-form.html %}
+  </section>
+</section>

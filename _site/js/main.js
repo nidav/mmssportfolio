@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+  // This is the top banner carousel
   $('.banner-carousel').owlCarousel({
       loop:true,
       margin:10,
@@ -7,6 +7,7 @@ $(document).ready(function(){
       autoplay: true
   });
 
+  // This is the sponser banner carousel
   $(".sponsors-banner").owlCarousel({
     loop:true,
     margin:10,
@@ -28,10 +29,31 @@ $(document).ready(function(){
         }
 
     }
-
-
   });
 
-  countUp.function(".counter", 0, 1200, 0, 3)
+  // This is the membership counter
+  $('.counter').each(function() {
+    var $this = $(this),
+        countTo = $this.attr('data-count');
+
+    $({ countNum: $this.text()}).animate({
+      countNum: countTo
+    },
+
+    {
+
+      duration: 8000,
+      easing:'linear',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+        //alert('finished');
+      }
+
+    });
+
+  });
 
 })
