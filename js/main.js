@@ -4,7 +4,7 @@ $(document).ready(function(){
       loop:true,
       margin:10,
       items:1,
-      autoplay: true
+      autoplay: true,
   });
 
   // This is the sponser banner carousel

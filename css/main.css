@@ -12,7 +12,8 @@ Website Fonts: List fonts here for reference
 Website Colours: List colour hex codes here for reference
 ----------------------------
 */
-
+/*ba36e6*/
+/*google analatics, events page, award winner, upcoming events, facebook link*/
 
 /* ---- CSS RESET --------------------------- */
 
@@ -25,6 +26,7 @@ Website Colours: List colour hex codes here for reference
 
 img {
     max-width: 100%;
+    display: block;
     /* This ensures an image never breaks it's container */
 }
 
@@ -90,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 h1 {
@@ -125,7 +127,7 @@ h6 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.1rem; max-width: 60em;
     line-height: 1.5;
 }
 
@@ -149,6 +151,10 @@ section {
     padding: 10vh 5%;
 }
 
+.padding-5{
+  padding: 2% 5%
+}
+
 .col, [class*=col-] {
     padding: 2%;
 }
@@ -160,6 +166,10 @@ section {
     background-color: violet;
     /* featured color */
     color: white;
+}
+
+.featured p{
+  margin: 0 auto;
 }
 
 .fa.featured {
@@ -538,4 +548,44 @@ hr {
   border-radius: 50%;
   height:200px;
   vertical-align: middle;
+}
+
+/*contact*/
+.contact {
+  text-align: center;
+}
+
+.parallax {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+.contact-bg-img {
+  background-image: url("../images/contact.jpg");
+  background-position: 83% 50%
+}
+.about-bg-img {
+  background-image: url("../images/campbanner.jpg");
+  background-position: 50% 50%
+}
+.events-bg-img {
+  background-image: url("/images/events-header.jpg");
+}
+
+.icon-1{
+  color: black;
+  font-size: 4rem;
+  margin: -50% 0
+}
+
+.home-events-images-1 {
+  background-image: url("/images/mmssbanner.jpg");
+}
+.home-events-images-2{
+  background-image: url("/images/champagne.jpg");
 }
