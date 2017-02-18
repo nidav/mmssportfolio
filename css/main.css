@@ -13,7 +13,7 @@ Website Colours: List colour hex codes here for reference
 ----------------------------
 */
 /*ba36e6*/
-/*google analatics, events page, award winner, upcoming events, facebook link*/
+/*google analatics,award winner events, domain change, scrolling effect, hover effect */
 
 /* ---- CSS RESET --------------------------- */
 
@@ -622,9 +622,16 @@ hr {
   margin-bottom: 5%;
 }
 
+/* Circle profile pics
 .committee-profile {
   width: 120px;
   height: 120px;
   border-radius: 100%;
+  margin: 0 auto;
+}*/
+
+.committee-profile {
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
 }
