@@ -155,7 +155,7 @@ header, footer {
 }
 
 section {
-    padding: 5vh 3%;
+    padding: 10vh 5%;
 }
 
 .padding-5{
@@ -632,4 +632,8 @@ hr {
 
 .hamburger{
   background-color: #A232E5;
+}
+
+.eventpadding {
+  padding: 5vh 3%
 }
