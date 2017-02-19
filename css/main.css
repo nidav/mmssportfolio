@@ -170,7 +170,7 @@ section {
 /* Other universal styles */
 
 .featured {
-    background-color: violet;
+    background-color: #A232E5;
     /* featured color */
     color: white;
 }
@@ -180,7 +180,7 @@ section {
 }
 
 .fa.featured {
-    color: violet;
+    color: #A232E5;
     /* featured color */
     background: none;
 }
@@ -209,7 +209,7 @@ nav a {
 }
 
 nav a:hover {
-    color: violet;
+    color: #A232E5;
     /* featured color */
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -267,7 +267,7 @@ footer .social-nav a {
 /* ----- MODULAR ELEMENTS --------------------------- */
 
 .banner {
-    background-color: violet;
+    background-color: #A232E5;
     /* featured-color */
     background-size: cover;
     background-position: center;
@@ -292,7 +292,7 @@ button,
 /* button is an element snipcart uses */
 
 .button, .button-inverted {
-    background-color: violet;
+    background-color: #A232E5;
     /* featured color */
     border: none;
     border-radius: 5px;
@@ -364,7 +364,7 @@ button,
 /* Customising the snipcart pop-up */
 
 .snip-layout .snip-header, .snip-layout .snip-footer {
-    background-color: violet;
+    background-color: #A232E5;
     /* featured color */
 }
 
@@ -450,7 +450,7 @@ textarea {
 input[type="submit"] {
     width: auto;
     display: block;
-    background-color: violet;
+    background-color: #A232E5;
     /* featured color */
 }
 
@@ -526,7 +526,7 @@ form[class*=col-] {
 }
 
 hr {
-  border-top: 1px solid violet;
+  border-top: 1px solid #A232E5;
 }
 
 /*Membership counter*/
@@ -550,7 +550,7 @@ hr {
   margin:1.5%;
   font-size:50px;
   color: white;
-  background-color: violet;
+  background-color: #A232E5;
   width:200px;
   border-radius: 50%;
   height:200px;
@@ -589,7 +589,7 @@ hr {
 
 .events-sidebar .number-of-events {
   font-size: 8em;
-  color: violet;
+  color: #A232E5;
 }
 
 .events-sidebar .event-icon {
@@ -605,7 +605,7 @@ hr {
 }
 
 .icon-1:hover {
-  color: violet;
+  color: #A232E5;
 }
 .icon-2:hover {
   color: white;
