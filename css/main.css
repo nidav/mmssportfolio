@@ -622,16 +622,10 @@ hr {
   margin-bottom: 5%;
 }
 
-/* Circle profile pics
-.committee-profile {
-  width: 120px;
-  height: 120px;
-  border-radius: 100%;
-  margin: 0 auto;
-}*/
-
+ /*Circle profile pics*/
 .committee-profile {
   width: 200px;
   height: 200px;
+  border-radius: 100%;
   margin: 0 auto;
 }
